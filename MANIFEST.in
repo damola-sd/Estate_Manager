@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include estate_manager *.css
+recursive-include estate_manager *.csv
+recursive-include estate_manager *.html
+recursive-include estate_manager *.ico
+recursive-include estate_manager *.js
+recursive-include estate_manager *.json
+recursive-include estate_manager *.md
+recursive-include estate_manager *.png
+recursive-include estate_manager *.py
+recursive-include estate_manager *.svg
+recursive-include estate_manager *.txt
+recursive-exclude estate_manager *.pyc
