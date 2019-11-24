@@ -15,9 +15,9 @@ def get_data():
                 }, 
                 {
                     "type": "doctype", 
-                    "name": "Agent",
-                    "label": _("Agent"),
-                    "description": _("Agents on the Platform")
+                    "name": "UserTypes",
+                    "label": _("UserTypes"),
+                    "description": _("Users on the Platform")
                 }
             ]
         }
