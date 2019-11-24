@@ -3,13 +3,8 @@
 # For license information, please see license.txt
 
 from __future__ import unicode_literals
-import frappe
-from frappe import _
+# import frappe
 from frappe.model.document import Document
 
-class Property(Document):
-	def validate(self):
-		pass
-
-
-	
+class UserTypes(Document):
+	pass
